@@ -1,0 +1,112 @@
+<mxfile host="app.diagrams.net" modified="2024-04-24T14:23:04.518Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="vH4M3ZoFJF4I1u7T1_PJ" version="24.2.9" type="device">
+  <diagram name="Page-1" id="MDfD3dL-1oj1IoBw1hPt">
+    <mxGraphModel dx="985" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rFx6AtGJzrZ7C1rpztWf-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rFx6AtGJzrZ7C1rpztWf-1" target="rFx6AtGJzrZ7C1rpztWf-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFx6AtGJzrZ7C1rpztWf-1" value="&lt;b&gt;Start&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="317.51" y="90" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rFx6AtGJzrZ7C1rpztWf-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rFx6AtGJzrZ7C1rpztWf-2" target="rFx6AtGJzrZ7C1rpztWf-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFx6AtGJzrZ7C1rpztWf-2" value="&lt;b&gt;Read input file one by one&lt;/b&gt;&lt;div&gt;&lt;b&gt;(Either PO or Invoice)&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="317.5" y="420" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rFx6AtGJzrZ7C1rpztWf-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rFx6AtGJzrZ7C1rpztWf-3" target="rFx6AtGJzrZ7C1rpztWf-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFx6AtGJzrZ7C1rpztWf-3" value="&lt;b&gt;Read Input Folder Path&lt;br&gt;(Get all Input Files)&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="317.5" y="310" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rFx6AtGJzrZ7C1rpztWf-5" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;UiPath- Document Understanding&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;(Purchase Order &amp;amp; Invoice Data Extraction)&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="110" y="30" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rFx6AtGJzrZ7C1rpztWf-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rFx6AtGJzrZ7C1rpztWf-8" target="rFx6AtGJzrZ7C1rpztWf-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFx6AtGJzrZ7C1rpztWf-8" value="&lt;b&gt;Load Taxonomy&lt;/b&gt;&lt;br&gt;&lt;b&gt;(Initialize project&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;Structure &amp;amp; Setting)&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="317.51" y="210" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rFx6AtGJzrZ7C1rpztWf-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rFx6AtGJzrZ7C1rpztWf-9" target="rFx6AtGJzrZ7C1rpztWf-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFx6AtGJzrZ7C1rpztWf-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="rFx6AtGJzrZ7C1rpztWf-9" target="rFx6AtGJzrZ7C1rpztWf-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFx6AtGJzrZ7C1rpztWf-9" value="&lt;b&gt;is any file available&lt;br&gt;&amp;nbsp;for processsing?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="313.13" y="524" width="168.75" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rFx6AtGJzrZ7C1rpztWf-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rFx6AtGJzrZ7C1rpztWf-10" target="rFx6AtGJzrZ7C1rpztWf-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFx6AtGJzrZ7C1rpztWf-10" value="&lt;b&gt;Digitization&lt;br&gt;(Using OCR&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Convert&lt;/b&gt;&lt;div&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; Document into Text)&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="317.5" y="670" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rFx6AtGJzrZ7C1rpztWf-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rFx6AtGJzrZ7C1rpztWf-11" target="rFx6AtGJzrZ7C1rpztWf-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFx6AtGJzrZ7C1rpztWf-11" value="&lt;b&gt;Classification&lt;br&gt;(Classify Doc. Using Keywords)&lt;br&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;Understand Doc. Either PO or Invoice&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="317.5" y="770" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rFx6AtGJzrZ7C1rpztWf-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rFx6AtGJzrZ7C1rpztWf-12" target="rFx6AtGJzrZ7C1rpztWf-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFx6AtGJzrZ7C1rpztWf-12" value="&lt;b&gt;Extraction&lt;br&gt;(Data Extractor) Using&lt;br&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;Generative AI for Invoice&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ML Extractor for PO&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="317.5" y="900" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rFx6AtGJzrZ7C1rpztWf-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rFx6AtGJzrZ7C1rpztWf-13" target="rFx6AtGJzrZ7C1rpztWf-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFx6AtGJzrZ7C1rpztWf-13" value="&lt;b&gt;Validation&lt;br&gt;(Validate Extracted&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;Result By&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Human)&lt;/b&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="317.5" y="1010" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rFx6AtGJzrZ7C1rpztWf-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="rFx6AtGJzrZ7C1rpztWf-15" target="rFx6AtGJzrZ7C1rpztWf-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFx6AtGJzrZ7C1rpztWf-15" value="&lt;b&gt;Export Result&lt;br&gt;(Export result in Table)&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="317.5" y="1130" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ylpltcAQt3yPNPooMgIX-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rFx6AtGJzrZ7C1rpztWf-17" target="ylpltcAQt3yPNPooMgIX-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFx6AtGJzrZ7C1rpztWf-17" value="&lt;b&gt;Write Table in Excel File&lt;br&gt;(Result in Output Excel)&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="549" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rFx6AtGJzrZ7C1rpztWf-18" value="&lt;b&gt;End&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="775" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rFx6AtGJzrZ7C1rpztWf-31" value="&lt;b&gt;Go For next File&lt;br&gt;to Process&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="820" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rFx6AtGJzrZ7C1rpztWf-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1" source="rFx6AtGJzrZ7C1rpztWf-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="661.88" y="820.01" as="sourcePoint" />
+            <mxPoint x="481.88" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="662" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fI5u6pLqNduSOTvR7ix5-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;True&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="400" y="634" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fI5u6pLqNduSOTvR7ix5-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;False&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="257.5" y="555" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ylpltcAQt3yPNPooMgIX-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ylpltcAQt3yPNPooMgIX-1" target="rFx6AtGJzrZ7C1rpztWf-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ylpltcAQt3yPNPooMgIX-1" value="&lt;b&gt;Send Output Report&lt;/b&gt;&lt;div&gt;&lt;b&gt;Excel file on Mail&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="664" width="160" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="ylpltcAQt3yPNPooMgIX-5" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;Fig.&amp;nbsp; &amp;nbsp;Automation Flow of Process&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="109" y="1240" width="610" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

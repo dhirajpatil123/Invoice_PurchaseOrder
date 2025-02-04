@@ -1,0 +1,32 @@
+                             
+                            *********** Uipath Document Understanding for Data Extraction*************
+                                        (Data Extraction From Invoice and Purchase Order)
+
+UseCase: In this usecase requirement is like we recieve Purchase order and Invoice in Input folder. We need to read each file and extract data
+from file, fill extracted data in output excel report file. Purchase order in PO Details sheet & Invoice Data in Invoice details sheet. Invoice 
+have in image format and PO have in PDF format. At last once Extraction is completed for all file, send excel report file to perticular person on mail.
+
+Robot will follow Automation steps as shown below:
+
+1)RPA robot(Automated Laptop or machine) first will read all PO And Invoice From Input folder.
+ 
+2)[Digitization]--Then robot fetch each file one by one for read all data from document using OCR Technology.
+
+3)[Classification]--After Getting all text from current document robot will understand & Classify doc.either is PO or Invoice using Keyword classifier.
+
+4)[Extraction]--Next step Robot will extract data from doc. using extractor like A]Generative AI for Invoice B]Machine Learning for PO
+  BOT will Extract Data using Generative AI(By Prompting), Machine Learning Algorithm and Using OCR
+  Applied on document as per their best performance in data extraction for that perticular doc. (can use any extractor for any doc. for better output)
+
+5)[Export Extraction Result]--After data extraction bot will write extracted data in output excel report file.
+
+6)At last bot will send prepared report file on mail to perticular purson.
+
+        Lets Run the Automation.........
+ 
+        [Validation]--If require human can involve in Automation for validate data extraction.
+
+Result: Extracted Details in Output folder Excel file and mail has sent successfully.
+
+
+                              ********************Thank You ************************
